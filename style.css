@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Tagalog&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    height: 7vh;
+    width: 100vw;
+    background-color: hsla(0, 72%, 45%, 0.781);
+}
+.logo img{
+    border: 3px solid hsl(0, 74%, 25%);
+    margin-top: -.5vh;
+    border-radius: 360px;
+    height: 45px;
+    margin-left: 10vh;
+}
+.navbar #links{
+    display: inline;
+}
+.navbar #links a{
+    font-family: 'Kaushan Script';
+    background-color: hsl(0, 96%, 28%);
+    border-radius: 5px;
+    padding: 1vh;
+    margin-right: 2vh;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+.navbar #links #Gallery{
+    margin-right: 10vh;
+}
+
+.navbar #links :hover{
+    font-size: larger;
+}
+.banner{
+    background-image: url(bgpic.jpeg);
+    padding: 1.5vw;
+    background-color: antiquewhite;
+    height: 95vh;
+    width: 97vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    font-family: 'Libre Baskerville';
+    color: hsl(0, 80%, 40%);
+    font-size: 4em;
+    margin-top: 3em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px hsl(0, 100%, 9%);
+    text-align: left;
+}
+.banner h1 span{
+    font-family: 'Libre Baskerville';
+    color: hsl(0, 91%, 21%)
+}
+.banner p{
+    font-family: 'Libre Baskerville';
+    font-size: x-large;
+    color: hsl(0, 100%, 39%);
+    text-shadow: 1px 1px hsl(0, 100%, 18%);
+    padding-bottom: 15px;
+}
+
+.banner #lesgo{
+    font-family: 'Kaushan Script';
+    text-decoration: none;
+    text-align: left;
+    font-size: x-large;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsla(0, 86%, 31%, 0.644); 
+    color: rgb(59, 10, 10);
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: hsla(0, 72%, 45%, 0.61);
+    text-align: left;
+}
+.footer p{
+    font-family: 'Alice', serif;
+    color: hsl(0, 100%, 14%);
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-bottom: -57px;
+    font-size: 15px;
+}
+.footer .footerlinks a{ 
+    text-decoration: none;
+    float: right;
+}
+.footer .footerlinks img{
+    height: 5vh;
+    border-radius: 360px;
+    margin-right: 2.5px;
+    margin-bottom: 15px;
+}
+.footer .footerlinks .fb{
+    margin-right: 25px;
+}
+
+.gallery{
+    padding: 1.5vw;
+    width: 95vw;
+    height: 93vh;
+    background-position: center;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.gallery h1{
+    margin-top: 10px;
+    font-size: 30px;
+    position:absolute;
+    font-family:'Libre Baskerville';
+    color: white;
+    text-shadow: 4px 1px #281717;
+    top: 10%;
+    bottom: 10%;
+    left: 5%;
+}
+
+.pics img{
+    border: 5px solid #281717;
+    opacity: .5;
+    transition: 0.2s;
+    margin: 20px;
+    width: 13%;
+    height: 13%;
+    position: relative;
+    display: inline-block;
+}
+.pics img:hover{
+    opacity: 1;
+    transition: 0.4s;
+    transform: scale(1.5);
+}
+.gallery .pics{
+    margin-top: 8em;
+}
